@@ -6,17 +6,17 @@ import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class Day02Part1Tests {
+public class Day02Part2Tests {
 
-    private final Day02Part1 part1 = new Day02Part1();
+    private final Day02Part2 part2 = new Day02Part2();
 
     @Test
-    public void testSamplePart1() throws IOException {
+    public void testSample() throws IOException {
         String input = "src/test/resources/day02_sample.txt";
 
-        int result = part1.execute(input);
+        int result = part2.execute(input);
 
-        assertEquals(8, result);
+        assertEquals(2286, result);
     }
 
 }
